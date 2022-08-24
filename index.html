@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+        function near(x, y) {
+            let b = 100 - x;
+            let v = 100 - y;
+            if (b > v) {
+                return y;
+            } else {
+                return x;
+            }
+        }
+
+        console.log(near(20,40));
+        console.log(near(20,40));
+        console.log(near(-20,-40));
+
+
+    </script>
+</body>
+</html>
